@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstXamarinTestProj.Assignment">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Entry Placeholder="Enter your first Name" x:Name="fName"/>
+            <Entry Placeholder="Enter your last Name" x:Name="lName"/>
+            <Entry Placeholder="Enter Comments" x:Name="Pcomments"/>
+
+
+            <Button Text="Post" Clicked="Button_Clicked_1"></Button>
+            <Button Text="Clear" Clicked="Button_Clicked_2"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

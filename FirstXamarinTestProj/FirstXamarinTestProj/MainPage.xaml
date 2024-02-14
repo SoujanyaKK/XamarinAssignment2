@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstXamarinTestProj.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Entry Placeholder="Enter your first Name" x:Name="fName"/>
+        <Entry Placeholder="Enter your last Name" x:Name="lName"/>
+
+        <Label Text="your name" x:Name="Label1"></Label>
+        <Button Text="Click me!" Clicked="Button_Clicked_1"></Button>
+        
+    </StackLayout>
+
+</ContentPage>
